@@ -88,6 +88,14 @@
             android:layout_weight="1"/>
     </LinearLayout>
     <!-- Dishes Layout -->
+    <!-- This displays the contact info -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/follow"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/info"/>
     <LinearLayout
         android:id="@+id/dishes"
         android:layout_width="match_parent"
@@ -248,12 +256,5 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
-    <!-- This displays the contact info -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/follow"
-        android:textSize="16sp"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/info"/>
+
 </RelativeLayout>

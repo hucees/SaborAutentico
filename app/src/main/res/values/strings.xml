@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Sabor Autentico</string>
     <string name="actionCall">Order Authentic Mexican Food To-Go!</string>
+    <string name="follow">https://www.facebook.com/SaborAutenticos</string>
+    <string name="bF">Breakfast</string>
+    <string name="lC">Lonche</string>
+    <string name="dN">Dinner</string>
+    <string name="Hrancheros">\u25CF Huevos Rancheros</string>
+    <string name="chilla">\u25CF Chilaquiles</string>
+    <string name="pBurrito">\u25CF Potato Burrito</string>
+    <string name="tortas">\u25CF Tortas</string>
+    <string name="mTacos">\u25CF Mini Tacos</string>
+    <string name="jBurrito">\u25CF Jalisco Burrito</string>
+    <string name="quesadilla">\u25CF Quessadilla</string>
+    <string name="mConArroz">\u25CF Mole Con Arroz</string>
+    <string name="sopes">\u25CF Sopes</string>
+
 </resources>

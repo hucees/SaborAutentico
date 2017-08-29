@@ -13,7 +13,7 @@
         android:layout_height="200dp"
         android:layout_alignParentTop="true"
         android:src="@drawable/mole"
-        android:scaleType="center" />
+        android:scaleType="centerCrop" />
     <!-- This is the layout for the title -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,7 +63,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Breakfast"/>
+            android:text="@string/bF"/>
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -72,7 +72,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Lonche"/>
+            android:text="@string/lC"/>
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -81,7 +81,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Dinner" />
+            android:text="@string/dN" />
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -115,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Huevos Rancheros" />
+                android:text="@string/Hrancheros" />
 
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Chillaquilles" />
+                android:text="@string/chilla" />
 
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
@@ -137,56 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Potato Burrito" />
-
-            <android.support.v4.widget.Space
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <android.support.v4.widget.Space
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <android.support.v4.widget.Space
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="2" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:text="\u25CF Tortas" />
-
-            <android.support.v4.widget.Space
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:text="\u25CF Mini Tacos" />
-
-            <android.support.v4.widget.Space
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="2"
-                android:text="\u25CF Jalisco Burrito" />
+                android:text="@string/pBurrito" />
 
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
@@ -213,7 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Quesadillas" />
+                android:text="@string/tortas" />
 
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
@@ -224,7 +175,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Mole Con Arroz" />
+                android:text="@string/mTacos" />
 
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
@@ -235,7 +186,56 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Sopes" />
+                android:text="@string/jBurrito" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="@string/quesadilla" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="@string/mConArroz" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="@string/sopes" />
 
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
@@ -252,7 +252,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://www.facebook.com/SaborAutenticos"
+        android:text="@string/follow"
         android:textSize="16sp"
         android:layout_alignParentBottom="true"
         android:id="@+id/info"/>

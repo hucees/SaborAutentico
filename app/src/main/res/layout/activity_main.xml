@@ -89,141 +89,171 @@
     </LinearLayout>
     <!-- Dishes Layout -->
     <LinearLayout
+        android:id="@+id/dishes"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:orientation="horizontal"
+        android:layout_height="match_parent"
         android:layout_below="@id/meals"
-        android:id="@+id/dishes">
+        android:layout_above="@id/info"
+        android:orientation="horizontal">
 
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="2"/>
+                android:layout_weight="2" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Huevos Rancheros"/>
+                android:text="\u25CF Huevos Rancheros" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Chillaquilles"/>
+                android:text="\u25CF Chillaquilles" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Potato Burrito"/>
+                android:text="\u25CF Potato Burrito" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
         </LinearLayout>
+
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="2"/>
+                android:layout_weight="2" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Tortas"/>
+                android:text="\u25CF Tortas" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Mini Tacos"/>
+                android:text="\u25CF Mini Tacos" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Jalisco Burrito"/>
+                android:text="\u25CF Jalisco Burrito" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
         </LinearLayout>
+
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="2"/>
+                android:layout_weight="2" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Quesadillas"/>
+                android:text="\u25CF Quesadillas" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Mole Con Arroz"/>
+                android:text="\u25CF Mole Con Arroz" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="\u25CF Sopes"/>
+                android:text="\u25CF Sopes" />
+
             <android.support.v4.widget.Space
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
         </LinearLayout>
+
         <android.support.v4.widget.Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+    <!-- This displays the contact info -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="https://www.facebook.com/SaborAutenticos"
         android:textSize="16sp"
-        android:layout_below="@id/dishes"/>
+        android:layout_alignParentBottom="true"
+        android:id="@+id/info"/>
 </RelativeLayout>
